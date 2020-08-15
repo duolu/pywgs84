@@ -163,7 +163,6 @@ def enu_to_ecef(e, n, u, llh_ref):
     lon = llh_ref[1] / 180 * np.pi
 
     R = ecef_to_enu_rotation_matrix(lat, lon)
-    R = R.T
 
     p = np.asarray((e, n, u))
     p = p.reshape((3, 1))
