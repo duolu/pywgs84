@@ -4,7 +4,7 @@ The **pywgs84** library is a Python library for working with coordinates in WGS8
 
 It has the following modules.
 
-* [pywgs84.py](https://https://github.com/duolu/pywgs84/blob/master/pywgs84.py) - The core functions for working with coordinates in WGS84.
+* [pywgs84.py](https://github.com/duolu/pywgs84/blob/master/pywgs84.py) - The core functions for working with coordinates in WGS84.
 
 The code is tested on Python 3.6 with NumPy 1.19.
 
